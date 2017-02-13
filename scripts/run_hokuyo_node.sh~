@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e  # exit on first error
+
+#roscore &
+rosrun hokuyo_node hokuyo_node 

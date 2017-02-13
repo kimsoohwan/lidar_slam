@@ -1,0 +1,1 @@
+http://answers.ros.org/question/251883/how-to-convert-sensor_msgslaserscanmsg-to-sensor_msgsmultiecholaserscanmsg/

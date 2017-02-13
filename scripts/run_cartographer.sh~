@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e  # exit on first error
+
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/opt/ros/indogo/share
+roslaunch mavros px4.launch 

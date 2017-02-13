@@ -1,0 +1,11 @@
+<launch>
+    <node name="hokuyo_horizontal" pkg="hokuyo_node" type="hokuyo_node">
+        <param name="port" type="string" value="/dev/ttyACM1" />
+        <remap from="scan" to="horizontal_laser_2d" />
+    </node>
+    <node name="hokuyo_vertical" pkg="hokuyo_node" type="hokuyo_node">
+        <param name="port" type="string" value="/dev/ttyACM2" />
+        <remap from="scan" to="vertical_laser_2d" />
+    </node>
+</launch>
+

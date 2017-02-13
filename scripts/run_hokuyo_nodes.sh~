@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e  # exit on first error
+
+roscore &
+roslaunch lidar_slam hokuyo_nodes.launch
